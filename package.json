@@ -1,0 +1,16 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/base.scss build/app.css",
+    "build:watch": "sass --watch src/base.scss build/app.css",
+    "stylelint": "stylelint src"
+  },
+  "devDependencies": {
+    "sass": "^1.19.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^3.0.0"
+  }
+}

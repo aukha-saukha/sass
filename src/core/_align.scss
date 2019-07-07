@@ -1,0 +1,15 @@
+// Align related styles
+
+// Aligns both horizontally and vertically
+.align-perfectly-centered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+// Aligns vertically
+.align-vertically-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
